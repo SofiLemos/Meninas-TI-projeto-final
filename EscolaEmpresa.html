@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="PT_br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programação em blocos em escolas publicas</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="nome.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c0bdcb8beb.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
+        <div class="col-md-3 mb-2 mb-md-0">
+          <a href="/" class="d-inline-flex link-body-emphasis text-decoration-none">
+            <svg class="bi" width="40" height="32" role="img" aria-label="Inicialização"><use xlink:href="#bootstrap"></use></svg>
+          </a>
+        </div>
+  
+        <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+          <li><a href="index.html" class="nav-link px-2"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Home</font></font></a></li>
+          <li><a href="EscolaEmpresa.html" class="nav-link px-2"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Equipe</font></font></a></li>
+          <li><a href="contato.html" class="nav-link px-2"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Contato</font></font></a></li>
+          <li><a href="sobre.html" class="nav-link px-2"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Sobre</font></font></a></li>
+        </ul>
+  
+        <div class="col-md-3 text-end">
+          
+        </div>
+      </header>
+    <section class="banner">
+        <div class="conteudo">
+            <h2>Equipe</h2>
+        </div>
+    </section>
+    <section class="sobre container col d-flex flex-row flex-wrap justify-content-evenly" id="sobre">
+        <div class="conteudo">
+            <h2>Nossa Equipe</h2>
+            <p>
+               Nossa equipe de programadores está empenhada em melhorar escola públicas. Começaram identificando as necessidades de cada escola, conversando com professores e alunos. Estabeleceram metas claras e criaram soluções práticas. Testaram essas soluções em escolas, ajustando com base no feedback.
+            </p>
+            <p>Querem não só melhoras escolas, mas também compartilhar suas descobertas, inspirando outras comunidades a fazerem o mesmo.
+            </p>
+        </div>
+    </section>
+    <section class="formulario">
+        <div class="row align-items-md-stretch">
+            <div class="col-md-6">
+              <div class="h-100 p-5 text-bg-dark rounded-3">
+                <h2>Quer fazer parte da nossa equipe?</h2>
+                <p>Estamos em busca de profissionais qualificados na área de programação para integrar nossa equipe dedicada á melhoria da educação em escolas públicas. Se você possui habilidades sólidas em programação e deseja fazer parte de projetos significativos, encorajamos que envie sua candidatura. Valorizamos a inovação e o comprometimento com a transformação positiva na educação. Junte-se a nos para fazer parte desse missão impactante.</p>
+                <input type="text" placeholder="seu nome" name="nome" id="nome"/>
+                <input type="mail" placeholder="seu e-mail" name="telefone" id="e-mail" />
+                <input type="tel" placeholder="seu telefone" name="telefone" id="telefone" />
+                <button class="btn btn-outline-secondary" type="button">Enviar</button>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="h-100 p-5 bg-body-tertiary border rounded-3">
+                <h2>Se inscreva!</h2>
+                <p>Para se Increver e ajudar no projeto, preencha o formulário.
+                    Estamos animados para ter você conosco!
+                </p>
+                <input type="text" placeholder="seu nome" name="nome" id="nome"/>
+                <input type="mail" placeholder="seu e-mail" name="telefone" id="e-mail" />
+                <input type="tel" placeholder="seu telefone" name="telefone" id="telefone" />
+                <button class="btn btn-outline-secondary" type="button">Enviar</button>
+              </div>
+            </div>
+          </div>
+    </section>
+    <footer>
+        <div class="espacamento"> &nbsp; </div>
+        <div class="footer-interno">
+            <div class="footer-coluna-1 footer-coluna">
+                <img src="logo.png" />
+                <p>C 2024</p>
+            </div>
+            <div class="footer-coluna-2 footer-coluna">
+                <ul>
+                    <li class="titulo">Redes</li>
+                    <li>Whatsapp - +55 (51) 9906-6153</li>
+                    <li>Intagram - @CentrIA</li>
+                    <li>Facebook - @CentrIA</li>
+                </ul>
+            </div>
+            <div class="footer-coluna-3 footer-coluna">
+                <ul>
+                    <li class="titulo">Escolas</li>
+                    <li>Imperatriz Leopoldina</li>
+                    <li>Sesc</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script>
+      window.onscroll = function(){minhafuncao()};
+      var header = document.getElementById("meuheader");
+      var logo = document.querySelector("#meuheader .logo img");
+      var sticky = header.offsetTop;
+          function minhafuncao(){
+              if((window.pageYOffset > sticky)){
+                  header.classList.add("sticky");
+                  logo.classList.add("sticky");
+              }
+              else{
+                  header.classList.remove("sticky");
+                  logo.classList.remove("sticky");
+              }
+          }
+          </script>
+</body>
+</html>
